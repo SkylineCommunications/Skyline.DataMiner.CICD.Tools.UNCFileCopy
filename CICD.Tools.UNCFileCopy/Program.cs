@@ -31,7 +31,7 @@
 				IsRequired = true
 			};
 
-			var addTimeStampSuffix = new Option<bool>("--add-timestamp-suffix", "If true, adds a timestamp suffix to the destination filename.")
+			var addTimeStampSuffix = new Option<bool>("--add-timestamp-suffix", "If true, adds a timestamp suffix (yyyyMMddHHmmss) to the destination filename.")
 			{
 				IsRequired = false
 			};
